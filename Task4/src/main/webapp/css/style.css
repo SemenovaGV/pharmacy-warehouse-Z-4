@@ -1,0 +1,144 @@
+body {
+    background-color: #dffffb;
+}
+
+header, footer {
+    background-color: #293753;
+    color: #fbfffb;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+header > h1 {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #dffffb;
+    padding: 8px;
+    white-space: nowrap;
+}
+
+hr {
+    color: #afafaf;
+    width: 100%;
+}
+
+img {
+    border: solid 1px gray;
+    display: block;
+}
+
+table {
+    display: block;
+    width: 100%;
+    text-align: right;
+    border-spacing: 20px 0;
+}
+
+table caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+tr th {
+    font-size: small;
+    white-space: nowrap;
+}
+
+tr td {
+    width: 100%;
+}
+
+.main {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.container {
+    border-radius: 5px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.content {
+    background-color: white;
+    padding: 10px 10px 0;
+    width: 100%;
+}
+
+.sidenav {
+    background-color: cadetblue;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.sidenav a:hover {
+    color: #041231;
+}
+
+/*.item-block {*/
+/*    background-color: #efefef;*/
+/*    border: cadetblue 1px solid;*/
+/*    border-radius: 5px;*/
+/*    margin-bottom: 10px;*/
+/*    padding: 10px;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+.item-block {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+    border: cadetblue 1px solid;
+    border-radius: 5px;
+}
+
+.item {
+    padding: 10px;
+}
+
+.item-short {
+    background-color: #efefef;
+    border: 2px outset;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.item-short:hover {
+    background-color: #f0fff0;
+    cursor: pointer;
+}
+
+.item-short:active {
+    border: 2px inset;
+    background-color: #e3eee3;
+}
+
+.preview {
+    max-height: 110px;
+}
+
+.full-view {
+    max-width: 300px;
+}
